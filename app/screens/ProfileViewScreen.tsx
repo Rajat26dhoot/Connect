@@ -209,7 +209,6 @@ const styles = StyleSheet.create({
   rightContent: {
     flex: 1,
     alignItems: 'flex-end',
-    flexWrap: 'wrap',
     gap: 6,
   },
   valueText: {
@@ -217,9 +216,7 @@ const styles = StyleSheet.create({
     color: 'blue',
   },
   hobbyList: {
-    flexDirection: 'row',
     flexWrap: 'wrap',
-    justifyContent: 'flex-end',
     gap: 8,
   },
   hobbyPill: {
